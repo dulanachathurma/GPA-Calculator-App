@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/my-gpa-predictor/",
+  // base: "/my-gpa-predictor/",  ← මේ line එක comment කරන්න හෝ delete කරන්න
 })
