@@ -1,3 +1,51 @@
+# 🎓 GPA Calculator App
+
+A clean, light-mode GPA Calculator built with **React + Vite + Tailwind CSS v4** to track semester and cumulative GPA across multiple academic years.
+
+## ✨ Features
+
+- 📅 **Year & Semester structure** — Year 1 = Semester 1 + Semester 2
+- 📊 **Real-time GPA calculation** — Semester GPA, Year GPA & Cumulative GPA update instantly
+- ➕ **Add / Remove** years and courses freely
+- 🎨 **Color-coded GPA cards** — Green → Blue → Yellow → Orange → Red
+- 📱 **Fully responsive** — Works on mobile & desktop
+- 🚀 **GitHub Pages ready**
+
+## 🛠️ Tech Stack
+
+- [React 19](https://react.dev/)
+- [Vite 8](https://vite.dev/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+
+## 📦 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+## 📁 Project Structure
+
+src/
+├── App.jsx                   # Main app + GPA logic
+├── index.css                 # Global styles (light mode)
+├── main.jsx                  # Entry point
+└── components/
+├── CourseRow.jsx          # Course input row
+├── GPADisplay.jsx         # GPA stat cards
+├── YearPanel.jsx          # Year & semester tabs
+└── Footer.jsx             # Footer
+
+
 ## 📐 Grade Scale
 
 | Grade | Points |
