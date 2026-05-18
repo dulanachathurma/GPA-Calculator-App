@@ -33,19 +33,6 @@ npm run build
 npm run deploy
 ```
 
-## 📁 Project Structure
-
-src/
-├── App.jsx                   # Main app + GPA logic
-├── index.css                 # Global styles (light mode)
-├── main.jsx                  # Entry point
-└── components/
-├── CourseRow.jsx          # Course input row
-├── GPADisplay.jsx         # GPA stat cards
-├── YearPanel.jsx          # Year & semester tabs
-└── Footer.jsx             # Footer
-
-
 ## 📐 Grade Scale
 
 | Grade | Points |
